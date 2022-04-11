@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declarationDir": "./dist/types",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
